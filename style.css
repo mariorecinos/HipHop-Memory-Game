@@ -1,0 +1,45 @@
+body {
+    background-image: url('https://cdn.discordapp.com/attachments/1025555697322164275/1078480191975858266/nyc_nowatermark.jpg');
+    background-color: rgb(250, 0, 6);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.buttons {
+transition-duration: 0.4s;
+}
+
+.buttons:hover {
+    background-color: red; /* Green */
+    color: white;
+  }
+
+#banner {
+text-align: center;
+}
+
+img {
+    width: 100%;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-width: 55%;
+    margin: 0 auto;
+}
+
+
+@media screen and (min-width: 576px) {
+}
+
+@media screen and (min-width: 800px) {
+}
