@@ -103,8 +103,8 @@ cardEls.forEach(function (el, index) {
             } else {
                 canGuess = false;
                 setTimeout(function () {
-                    cardEls[firstGuess].setAttribute('src', './images/red2.svg')
-                    cardEls[index].setAttribute('src', './images/red2.svg')
+                    cardEls[firstGuess].setAttribute('src', '/images/red2.svg')
+                    cardEls[index].setAttribute('src', '/images/red2.svg')
                     firstGuess = null;
                     canGuess = true;
                     // no match
@@ -130,7 +130,7 @@ function resetGame() {
         document.querySelector('#guesses').textContent = guesses
 
         cardEls.forEach(function (el, index) {
-            el.setAttribute('src', './images/red2.svg')
+            el.setAttribute('src', '/images/red2.svg')
         })
 
         cards.forEach(function(card, index){
