@@ -1,3 +1,5 @@
+console.log("hello World")
+
 // Helper functions
 function shuffle(array) {
     let currentIndex = array.length, randomIndex;
@@ -26,7 +28,7 @@ function shuffle(array) {
 //     return shuffledArr;
 // }
 
-// Our code 
+// Our code
 // Array of card objects
 let cards = [
     { value: '2', image: './images/Bronson.jpeg', matched: false },
@@ -39,7 +41,7 @@ let cards = [
     { value: '9', image: './images/Ortiz.jpeg', matched: false },
     { value: '10', image:'./images/Pun.jpeg', matched: false },
     { value: '11', image:'./images/Talib.jpeg', matched: false },
-    
+
     { value: '2', image: './images/Bronson.jpeg', matched: false },
     { value: '3', image: './images/Diddy.jpeg', matched: false },
     { value: '4', image: './images/Jayz.jpeg', matched: false },
@@ -54,7 +56,7 @@ let cards = [
 // The property matched in this object likely represents whether the card has been matched with another card in a memory matching game. By default, when the card is initially created, it has not yet been matched with any other card. Therefore, setting matched: false when creating the card object makes sense.
 
 
-/* Cached Elements */
+/* Cached Elements Making a quick change*/
 // Selecting the four cards elements
 cardEls = document.querySelectorAll('.card')
 // This accessing all four of our elements.
@@ -80,7 +82,7 @@ cardEls.forEach(function (el, index) {
         let clickedCard = cards[index];
         //The card that is clicked is retrieving the element from the cards array at the specific index
         el.setAttribute('src', clickedCard.image);
-        // So for each element that is clicked this function runs. 
+        // So for each element that is clicked this function runs.
         if (firstGuess === null) {
             firstGuess = index;
             // if first guess === null then store the guess
@@ -141,7 +143,7 @@ function resetGame() {
 
     }, 2000)
 
-   
+
 
 
 }
