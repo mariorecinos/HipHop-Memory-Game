@@ -29,13 +29,13 @@ function shuffle(array) {
 // Our code 
 // Array of card objects
 let cards = [
-    { value: '2', image: '/images/Bronson.jpeg', matched: false },
-    { value: '3', image: '/images/Diddy.jpeg', matched: false },
-    { value: '4', image: '/images/Jayz.jpeg', matched: false },
-    { value: '5', image: '/images/Kanye.jpeg', matched: false },
-    { value: '6', image: '/images/Krs.jpeg', matched: false },
-    { value: '7', image: '/images/Mos.jpeg', matched: false },
-    { value: '8', image: '/images/Nicki.jpeg', matched: false },
+    { value: '2', image: './images/Bronson.jpeg', matched: false },
+    { value: '3', image: './images/Diddy.jpeg', matched: false },
+    { value: '4', image: './images/Jayz.jpeg', matched: false },
+    { value: '5', image: './images/Kanye.jpeg', matched: false },
+    { value: '6', image: './images/Krs.jpeg', matched: false },
+    { value: '7', image: './images/Mos.jpeg', matched: false },
+    { value: '8', image: './images/Nicki.jpeg', matched: false },
     { value: '9', image: '.images/Ortiz.jpeg', matched: false },
     { value: '10', image: './images/Pun.jpeg', matched: false },
     { value: '11', image: './images/Talib.jpeg', matched: false },
