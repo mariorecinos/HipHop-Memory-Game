@@ -1,4 +1,4 @@
-console.log("hello World Hi Frank")
+console.log('%c Hip-Hop MC Memory Game ', 'font-weight: bold; font-size: 20px;color: red; text-shadow: 1px 1px 0 rgb(217,31,38) , 3px 3px 0 rgb(226,91,14) , 5px 5px 0 rgb(245,221,8)');
 
 // Helper functions
 function shuffle(array) {
